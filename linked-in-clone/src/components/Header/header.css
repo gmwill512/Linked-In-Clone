@@ -1,0 +1,22 @@
+.logo{
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+}
+
+.headerLeft{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.headerSearch{
+    
+    display: flex;
+    flex-direction: row;
+}

@@ -3,7 +3,7 @@ const express = require('express');
 const socketio = require('socket.io');
 const cors = require('cors');
 
-const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
+const { addUser, removeUser, getUser, getUsersInRoom } = require('./user');
 
 const router = require('./router');
 
@@ -63,5 +63,5 @@ io.on('connect', (socket) => {
 });
 
 server.listen(process.env.PORT || 5000, () =>
-  console.log(`Server has started.`),
+  console.log(`Server has started.`)
 );
