@@ -1,0 +1,98 @@
+.sidebarBottom{
+display:flex;
+flex-direction: column;
+border: 1px solid lightgray;
+background-color: white;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 250px;
+    justify-content: space-between;
+}
+
+.recent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.recent>p{
+    font-size:11px;
+    color:gray
+
+}
+.groups>p{
+    font-size:11px;
+    color:gray;
+    cursor: pointer
+}
+
+.groups{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.groups>h6{
+ color: blue;
+ cursor: pointer
+}
+
+.group>h6:hover{
+    text-decoration: underline ;
+}
+
+.events{
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    direction: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer
+}
+
+.discoverMore{
+    color:gray;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    cursor:pointer
+}
+.discoverMore:hover{
+    background-color: lightgray;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.addIcon{
+    color: rgb(107, 106, 106);
+    height:20px !important;
+}
+
+.addIcon:hover{
+    background-color: lightgrey ;
+    border-radius: 1000px
+}
+
+.insideEvents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.followedHastags{
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+ 
+.insideEvents>h6:hover{
+    text-decoration: underline;
+}
+
+.followedHastags>h6:hover{
+    text-decoration: underline;
+}

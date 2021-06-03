@@ -1,0 +1,135 @@
+.sidebartop{
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    flex: 0.2;
+    text-align: center;
+    height: fit-content;
+    align-items: center;
+    background-color: white;
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 250px;
+    
+}
+
+.sidebarAvatar{
+margin: 0 auto;
+align-content:center;
+height: 60px !important;
+width: 60px !important;
+}
+
+.sidebarTop{
+    direction:flex;
+    flex-direction: column;
+}
+.sidebarImage{
+    height: 60px;
+    width: 100%;
+    margin-bottom:-35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sidebarStat{
+    margin-top:10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font: 13px;
+    font-weight: 600;
+    color: gray;
+}
+
+.sidebarStat > p{
+    align-items: center;
+    margin-left:10px;
+    font-size: 12px;
+    
+}
+
+.sidebarStats{
+ width:100%;
+ border-top: 1px lightgray solid;
+ border-bottom:1px lightgray solid;
+ padding-bottom: 10px;
+ align-items: center;
+}
+
+.sidebarNumber{
+    margin-right:10px;
+    color:blue;
+    font-size: 15px;
+
+}
+
+.sidebarTop > h3{
+    font-size: 15px;
+    margin:10px;
+    color:gray
+}
+
+.sidebarTop > h2{
+    color:black;
+    font-size: 20px;
+}
+
+.sidebarStat:hover{
+    background:lightgray;
+    cursor: pointer;
+}
+
+.sidebarPremium{
+    border-bottom: 1px lightgray solid;
+    margin-left:10px;
+    margin-right:10px;
+    width:100%;
+    height:100%;
+    text-align: left; 
+    margin-left:10px;
+    
+}
+.sidebarPremium>p{
+    padding:10px;
+    font-size:12px;
+    cursor:pointer;
+    text-align: left;
+    height:100%;
+}
+
+.sidebarPremium:hover{
+    background:lightgray;
+}
+.sidebarMyItems:hover{
+    background:lightgray;
+}
+
+.sidebarMyItems>p{
+    font-size: 12px; 
+    text-align: left;
+    cursor:pointer;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.sidebarMyItems{
+    width:100%;
+    height:100%;
+    text-align: left; 
+    margin-left:10px;
+    margin-right: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px ;
+    padding-top: 10px;
+    
+    
+}
+
+.sidebarTop>h2:hover{
+        text-decoration: underline;
+        cursor: pointer;
+}

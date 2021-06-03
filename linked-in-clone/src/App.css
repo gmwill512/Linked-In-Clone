@@ -1,0 +1,26 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f2ef;
+}
+
+.appBottom{
+    display: flex;
+    flex-direction: row;
+}
+.Header{
+    z-index: 1000;
+
+}
+
+.Sidebar{
+    flex:0.2
+}
+
+.CenterContent{
+    flex: 0.6;
+}
+
+.RightSideContent{
+    flex: 0.2;
+}
