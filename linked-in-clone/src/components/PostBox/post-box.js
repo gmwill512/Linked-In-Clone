@@ -5,10 +5,12 @@ import PhotoIcon from '@material-ui/icons/Photo';
 import PlayCircleFilledWhiteIcon from '@material-ui/icons/PlayCircleFilledWhite';
 import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
 import DescriptionIcon from '@material-ui/icons/Description';
+import { useState } from 'react';
 
 import InputOptions from '../InputOption/input-option.js';
 
 function PostBox() {
+    const [post ,setPost] = useState({[])
   return (
     <div className="postBox">
       <div className="avatarTextBox">
